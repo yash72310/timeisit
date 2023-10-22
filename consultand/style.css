@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,500&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+    html{
+    font-size:67.5%;
+    }
+    body{
+    background-color:#1f1000;
+    color:#fff;
+    }
+    .topbar{
+    background-color: #9898e6;
+    }
+    navbar{
+    display:flex;
+    padding:30px;
+    }
+    navbar .logo{
+        height:10%;
+        width:10%;
+    }
+    navbar .burger{
+        height:10%;
+        position: absolute;
+        right:100px;
+        cursor: pointer;
+    }
+    navbar h2{
+        font-family: 'Roboto', sans-serif;
+        padding: 40px;
+        font-size: 40px;
+    }
+    navbar h2 span{
+        color: orangered;
+    }
+    .quotes{
+    display:flex;
+    justify-content:space-between;
+    }
+    .quotes h2{
+    font-size:30px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    padding:100px;
+    }
+    .quotes img{
+        width:40%;
+        height:50%;
+    }
+    .learn button{
+    padding:15px 20px 15px 20px;
+    border-radius:50px;
+    color:white;
+    background-color:#00001a;
+    cursor:pointer;
+    border:none;
+    position: relative;
+    bottom:100px;
+    left:50px;
+    }
+    .learn{
+    padding:0px 20px 30px;
+    }
+
+
+
+
+
+    
+    
+    .home-section{
+    background-color:white;
+    color:black;
+    }
+    .home-section h2{
+    padding:50px;
+    font-size:30px;
+    text-align: center;
+    }
+    .home-section img{
+        mix-blend-mode:luminosity;
+        background-blend-mode: multiply;
+        background-color: white;;
+    }
+
+
+
+
+    .services{
+        background-color: #535379;
+        padding: 10px;
+    }
+    .services h2{
+        color:#00cc99;
+        font-size: 30px;
+    }
+    .services .description p{
+        padding: 20px;
+        font-size: 15px;
+
+    }
+    .service-list{
+        padding-left: 50px;;
+    }
+    .service-list li{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+
+
+
+    .team{
+        background-color: white;
+      text-align: center;
+      padding:20px;
+       width: 100%;
+        color: black;
+    }
+
+    .team h2{
+        font-size: 20px;
+    }
+
+
+    .chef{
+        min-height: 80vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
+    }
+    .chef .heading span{
+        color: #000;
+    }
+    .chef .box-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+
+    }
+    
+    .chef .box-container .box{
+        height: 30rem;
+        width: 25rem;
+        margin: 2rem;
+        border: .5rem solid var(--red);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3);
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
+    }
+    
+    .chef .box-container .box img{
+        height: 30%;
+        width: 30%;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    .chef .box-container .box p{
+        padding:5px;
+        font-size: 15px;
+    }
+    
+    .chef .box-container .box .info{
+        position: absolute;
+        bottom: -6rem;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        border-top: .5rem solid var(--red);
+        text-align: center;
+    
+    }
+    
+    .chef .box-container .box:hover .info{
+        bottom: 0rem;
+    
+    }
+    
+    
+    .chef .box-container .box .info h3{
+        font-size: 2rem;
+        color: #333;
+        padding: .5rem 0;
+    }
+    
+    .chef .box-container .box .info span{
+        font-size: 1.5rem;
+        color: #666;
+    }
+    
+    .chef .box-container .box .info .share{
+        margin-top: 1rem;
+        border-top: .1rem solid rgba(0,0,0,0.3);
+        padding: 1rem 0;
+    }
+    
+    .chef .box-container .box .info .share a{
+        font-size: 2rem;
+        margin: 1rem;
+        color: var(--red);
+    }
+    
+    .chef .box-container .box .info .share a:hover{
+        color: #333;
+    }
+
+    .team button{
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+
+    .contact{
+        background-color: black;
+        display:flex ;
+    }
+    .contact .side{
+        padding: 20px;
+    }
+    .contact .side h2{
+        padding: 50px;
+        float: right;
+        font-size: 30px;
+    }
+
+    input[type=text],input[type=email], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      .send{
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+     .send:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        padding: 30px;
+      }
+
+      .container h2{
+        margin-bottom: 20px;
+        font-size: 30px;
+      }
